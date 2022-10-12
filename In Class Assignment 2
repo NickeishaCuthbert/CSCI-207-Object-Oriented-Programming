@@ -14,7 +14,7 @@ class Square extends Polygon {
 class Main {
     public static void main(String[] args) {
         Polygon thisPolygon = new Polygon(); //Creates new Polygon object
-        Polygon S1 = new Square(); //Creates new Square object
+        Square S1 = new Square(); //Creates new Square object
         thisPolygon.render();
         S1.render();
     }
