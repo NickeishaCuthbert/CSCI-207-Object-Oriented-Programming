@@ -1,0 +1,25 @@
+class Practice {
+    public static void print() {
+        System.out.println("This is a practice program");
+    }
+
+    public static void equation() {
+       int y;
+       y = (5 + 15)/10;
+       System.out.println(y);
+    }
+
+    public static void encap1() {
+        System.out.println("This is my name");
+    }
+
+    public void encap2() extends encap1() {
+
+    }
+
+    public static void main(String[] args) {
+    Practice.print();
+    Practice.equation();
+    Practice.encap1();
+    }
+}
