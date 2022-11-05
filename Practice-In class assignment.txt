@@ -1,0 +1,31 @@
+class Practice {
+    public static void print() {
+        System.out.println("This is a practice program");
+    }
+
+    public static void equation() {
+       int y;
+       String first = "3(2y-5)+4y=5";
+       String second = "6y-15+4y=5";
+       String third = "10y-15=5";
+       y = (5 + 15)/10;
+       System.out.println(y);
+    }
+
+    public static void encap1() {
+        System.out.println("This is my name");
+    }
+
+    //new class extends practice.encap1()
+    class Practice2 extends Practice {
+        public static void encap2() {
+            Practice.encap1();
+        }
+    }
+
+    public static void main(String[] args) {
+    Practice.print();
+    Practice.equation();
+    Practice2.encap2();
+    }
+}
