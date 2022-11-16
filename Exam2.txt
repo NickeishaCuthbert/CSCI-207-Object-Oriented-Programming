@@ -1,0 +1,16 @@
+public class Main {
+    //main method
+    public static void main(String[] args) {
+        int product = multiply(10);
+        System.out.println(product);
+    }
+
+    //multiply method
+    public static int multiply(int i) {
+        if (i >= 1) {
+            return i * multiply(i-1);
+        } else {
+            return 1;
+        }
+    }
+}
